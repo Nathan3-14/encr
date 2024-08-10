@@ -26,7 +26,7 @@ def encr(message: str) -> str:
             char_encr = ""
         
         
-        encrypted += f"{alphabet[char_encr_index_offset] if char_encr != "" else ""}{char_encr}"
+        encrypted += f"{alphabet[char_encr_index_offset] if char_encr != '' else ''}{char_encr}"
 
     return encrypted
 
